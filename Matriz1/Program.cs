@@ -13,7 +13,7 @@ namespace Matriz1
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write("Valor [" + i + ", " + j + "]: ");
+                    Console.Write("Valor de [" + i + ", " + j + "]: ");
                     mat[i, j] = int.Parse(Console.ReadLine());
                 }
             }
